@@ -1,0 +1,47 @@
+#logoEmpresa{
+    border-radius: 100px;
+    height:50px ;
+    width:50px ;
+    transition: transform 0.3s;
+}
+#logoEmpresa:hover{
+    transform: scale(1.2);
+}
+.navbar{
+    background-color: rgb(228, 227, 227);
+}
+.contenedor-Producto{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.titulo{
+    font-size: 40px;
+}
+.activa{
+    color: aqua;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+#menuDesplegable {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    opacity: 0.8;
+    border: 1px solid #ddd;
+    padding: 8px 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 40px;
+    display: none;
+}
+#menuDesplegable li {
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+#menuDesplegable li:hover {
+    background-color: #f1f1f1;
+}
+  
